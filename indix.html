@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Montserrat&display=swap" rel="stylesheet">
+    <script>
+        module.exports = {
+            theme: {
+              extend: {
+                colors: {
+                  'regal-blue': '#FECC02;',
+                  'blue': '#C61;',
+                  'bblack':'#131313'
+                },
+                FontFamily: {
+                    'montserrat': ['Montserrat','sans-serif']
+                }
+              }
+            }
+          }
+    </script>
+    <title>Document</title>
+</head>
+<body class="max-w-screen-2xl mx-auto font-montserrat">
+    <header>
+        <nav class="fixed top-0 left-0 right-0  py-5 bg-white">
+            <div class="flex justify-between max-w-7xl mx-auto">
+                <h1 class="text-4xl font-bold uppercase">jhaka naka production</h1>
+                <ul class="flex gap-5 uppercase">
+                    <li class="text-lg font-bold"><a href="">about us</a></li>
+                    <li class="text-lg font-bold"><a href="">our movies</a></li>
+                    <li class="text-lg font-bold "><a href="">services</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class=" mt-20 bg-[url('./images/banner.jpg')] w-full bg-cover h-screen">
+           <div class="max-w-7xl mx-auto h-full flex items-center text-white">
+                <div>
+                    <h3 class="uppercase text-lg font-bold">Movie production studio</h3>
+                    <h1 class="uppercase text-7xl font-bold">Films Made to</h1>
+                    <h1 class="uppercase text-7xl font-bold text-colort text-blue text-[#FECC02;]">Perfection</h1>
+                    <p class="w-3/4 my-6">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                         Ut  elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                    </p>
+                    <button class="border-2 px-5 py-3 rounded-lg hover:border-orange-500 font-bold text-xl">Discover More</button>
+                </div>
+           </div>
+        </section>
+    </header>
+    <!-- main -->
+
+</body>
+</html>
