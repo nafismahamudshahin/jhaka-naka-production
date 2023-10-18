@@ -7,33 +7,29 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/icons/camera.png">
     <script>
         module.exports = {
             theme: {
               extend: {
-                colors: {
-                  regal-blue: '#FECC02;',
-                  blue': '#C61;',
-                  'bblack':'#131313'
-                },
                 FontFamily: {
-                    'montserrat': ['Montserrat','sans-serif']
+                    montserrat: ['Montserrat','sans-serif']
                 }
               }
             }
           }
     </script>
-    <title>Document</title>
+    <title>Jaka Naka Productino</title>
 </head>
 <body class="max-w-screen-2xl mx-auto font-montserrat">
     <header>
         <nav class="fixed top-0 left-0 right-0  py-5 bg-white">
             <div class="flex justify-between max-w-7xl mx-auto">
-                <h1 class="text-4xl font-bold uppercase">jhaka naka production</h1>
-                <ul class="flex gap-5 uppercase">
-                    <li class="text-lg font-bold"><a href="">about us</a></li>
-                    <li class="text-lg font-bold"><a href="">our movies</a></li>
-                    <li class="text-lg font-bold "><a href="">services</a></li>
+                <h1 class="text-2xl md:text-4xl font-bold uppercase">jhaka naka production</h1>
+                <ul class="md:flex gap-5 uppercase">
+                    <li class="text-md font-semibold md:text-lg md:font-bold"><a href="">about us</a></li>
+                    <li class="text-md font-semibold md:text-lg md:font-bold"><a href="">our movies</a></li>
+                    <li class="text-md font-semibold md:text-lg md:font-bold "><a href="">services</a></li>
                 </ul>
             </div>
         </nav>
@@ -55,21 +51,21 @@
     <!-- main -->
     <main>
         <section class="my-24">
-            <div class="max-w-7xl mx-auto grid grid-cols-6 border gap-10 border-orange-700 p-9 rounded-lg">
-                <div class=" flex justify-center items-end col-span-3 bg-[url('images/camera-man.jpg')] h-96 p-3 bg-cover bg-no-repeat bg-center">
+            <div class=" max-w-7xl mx-auto grid md:grid-cols-6 border gap-10 border-gray-800 p-9 rounded-lg">
+                <div class="order-2 md:order-1 flex justify-center items-end rounded-lg md:col-span-3 bg-[url('images/camera-man.jpg')] h-96 p-3 bg-cover bg-no-repeat bg-center">
                         <!-- <img src="images/camera-man.jpg" alt=""> -->
                         <h2 class=" -mb-8 bg-white uppercase font-bold text-xl rounded-lg shadow-md w-10/12 mx-auto py-2 text-center">23 YEARS of EXPERIENCE</h2>  
                 </div>
-                <div class=" col-span-3 p-3 flex items-center justify-center">
+                <div class=" order-1 md:order-2 md:col-span-3 p-3 pl-5 flex items-center justify-center ">
                     <div>
                         <h3 class="uppercase font-bold">about us</h3>
                     <h1 class="uppercase font-bold text-5xl">Fillmling experience</h1>
                     <h1 class="uppercase font-bold text-5xl">just got better</h1>
-                    <button class="mt-5 border-2 px-5 py-3 rounded-lg hover:border-orange-500 font-bold text-xl">Discover More</button>
+                    <button class="mt-5 border-2 px-5 py-3 rounded-lg border-gray-700 hover:border-orange-500 font-bold text-xl">Discover More</button>
                 
                     </div>
                 </div>
-                <div class=" col-span-2 border-top">
+                <div class="order-3 md:col-span-2 border-top">
                     <div class="bg-black width-full h-1 mb-4"></div>
                     <h1 class="font-bold text-3xl mb-3 uppercase">our vision</h1>
                     <p class="text-gray-600">
@@ -77,7 +73,7 @@
                          Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                     </p>
                 </div>
-                <div class=" col-span-2 border-top">
+                <div class="order-4 md:col-span-2 border-top">
                     <div class="bg-black width-full h-1 mb-4"></div>
                     <h1 class="font-bold text-3xl mb-3 uppercase">our vision</h1>
                     <p class="text-gray-600">
@@ -85,7 +81,7 @@
                          Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                     </p>
                 </div>
-                <div class=" col-span-2 border-top">
+                <div class="order-5 md:col-span-2 border-top">
                     <div class="bg-black width-full h-1 mb-4"></div>
                     <h1 class="font-bold text-3xl mb-3 uppercase">our vision</h1>
                     <p class="text-gray-600">
@@ -107,21 +103,84 @@
                     </div>
                 </div>
                 <div class="my-7 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                    <div class="w-full p-5 border-2 rounded-md">
-                        <img class="w-full rounded-md hover:scale-105 duration-100" src="images/fractured.jpg" alt="">
+                    <div class="w-full py-4 px-3 mx-5 border-2 rounded-md">
+                        <img class=" md:w-full rounded-md hover:scale-105 duration-100" src="images/fractured.jpg" alt="">
                     </div>
-                    <div class="w-full p-5 border-2 rounded-md">
-                        <img class="w-full rounded-md hover:scale-105 duration-100" src="images/inception.jpg" alt="">
+                    <div class="w-full py-4 px-3 mx-5 border-2 rounded-md">
+                        <img class=" md:w-full rounded-md hover:scale-105 duration-100" src="images/inception.jpg" alt="">
                     </div>
-                    <div class="w-full p-5 border-2 rounded-md">
-                        <img class="w-full rounded-md hover:scale-105 duration-100" src="images/interstellar.jpg" alt="">
+                    <div class="w-full py-4 px-3 mx-5 border-2 rounded-md">
+                        <img class=" md:w-full rounded-md hover:scale-105 duration-100" src="images/interstellar.jpg" alt="">
                     </div>
-                    <div class="w-full p-5 border-2 rounded-md">
-                        <img class="w-full rounded-md hover:scale-105 duration-100" src="images/tenet.jpg" alt="">
+                    <div class="w-full py-4 px-3 mx-5 border-2 rounded-md">
+                        <img class=" md:w-full rounded-md hover:scale-105 duration-100" src="images/tenet.jpg" alt="">
                     </div>
                 </div>
             </div>
          </section>
-    </main>
+
+         <!-- what we offer -->
+         <section class="my-20 max-w-7xl mx-auto">
+            <div>
+                <div class="text-center mb-9">
+                    <h3 class="uppercase font-bold">services</h3>
+                    <h1 class="uppercase font-bold text-5xl">what we offer</h1>
+                </div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/camera.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/count-down.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/3d-glasss.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/cut-board.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/film.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/rim.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/theater.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                <div class="border-4 py-8 w-full border-gray-700 text-center rounded-md">
+                    <img class="mx-auto w-20 h-20" src="images/icons/director-chair.png" alt="">
+                    <h3 class="text-xl font-bold my-3 uppercase">movies drector</h3>
+                    <p class="text-lg font-normal md:w-9/12 mx-auto text-gray-600 font-serif">Ex quam platea aliquet viverra si dictumst lobortis quis aliquam dis eget.</p>
+                </div>
+                
+            </div>
+         </section>
+        </main>
+        <!-- footer -->
+        <footer class="py-8 bg-[url(images/footer-bg.jpg)] bg-cover text-center text-white">
+            <h1 class="uppercase font-bold text-3xl md:text-5xl">jhaka naka production</h1>
+            <h1 class="uppercase my-6 font-bold text-lg md:text-xl">next level experience</h1>
+            <p class="w-96 mx-auto font-normal">Feugiat nibh litora semper proin nullam facilisi 
+                volutpat ex ullamcorper.</p>
+            <p class="mt-20">
+                Copyright © 2021 Jhaka Naka Production, All rights reserved. Present by Mir Hussain
+            </p>
+        </footer>
 </body>
 </html>
